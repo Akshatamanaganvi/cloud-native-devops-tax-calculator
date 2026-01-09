@@ -3,7 +3,7 @@ kind: Task
 metadata:
   name: npm
 spec:
-  steps:   
+  steps:
     - name: npm-install
       image: node:18
       workingDir: /workspace/source
